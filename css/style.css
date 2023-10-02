@@ -30,7 +30,17 @@ main {
   left: 50%;
   bottom: 55%;
   transform: translate(-63%, 20%);
-  height: 18%;
+  height: 19%;
+}
+
+.pokemon_type {
+  display: block;
+  position: absolute;
+  color: #676e75;
+  font-size: clamp(6px, 4vh, 16px);
+  font-weight: 600;
+  top: 49%;
+  left: 60%;
 }
 
 .pokemon_data {
